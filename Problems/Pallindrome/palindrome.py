@@ -9,5 +9,5 @@ def isPalindrome(x):
         return True
     else:
         return False
-result = isPalindrome(121)
+result = isPalindrome(1271)
 print(result)
