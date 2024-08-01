@@ -1,4 +1,4 @@
-def lengthOfLastWord(self, s: str) -> int:
-    words=s.split()
-    last_word=words[-1]
-    return len(last_word)
+s=input("Enter a string: ")
+words=s.split()
+last_word=words[-1]
+print(len(last_word))
